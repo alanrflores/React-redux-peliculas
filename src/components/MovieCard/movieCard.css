@@ -1,0 +1,111 @@
+.divButton {
+  
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  margin-right: 280px;
+}
+
+.btn {
+  background-color: darkslategrey;
+  width: 30px;
+  border: solid 1px;
+  border-top: 4px;
+  border-left: 4px;
+  border-right: 4px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.card img {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 15px;
+  -webkit-box-shadow: 8px 8px 15px 1px #000000;
+  box-shadow: 8px 8px 15px 1px #000000;
+}
+
+.divDescription {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.divDescription > p {
+  margin: 6px;
+}
+
+.name{
+  border: solid 1px;
+  color: #f6fbffe4;
+  padding: 6px;
+  border-top: 4px;
+  border-left: 4px;
+  border-right: 4px;
+  border-radius: 4px;
+
+}
+@media (max-width: 580px){
+  .card img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 15px;
+    -webkit-box-shadow: 8px 8px 15px 1px #000000;
+    box-shadow: 8px 8px 15px 1px #000000;
+  }
+}
+@media (max-width: 445px){
+  .card img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 15px;
+    -webkit-box-shadow: 8px 8px 15px 1px #000000;
+    box-shadow: 8px 8px 15px 1px #000000;
+  }
+}
+
+@media (max-width: 366px){
+  .card{
+     margin-left: 50px;
+  }
+  .card img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 15px;
+    -webkit-box-shadow: 8px 8px 15px 1px #000000;
+    box-shadow: 8px 8px 15px 1px #000000;
+  }
+}
+@media (max-width: 320px){
+  .card{
+    margin-left: 60px;
+ }
+  .card img {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 15px;
+    -webkit-box-shadow: 8px 8px 15px 1px #000000;
+    box-shadow: 8px 8px 15px 1px #000000;
+  }
+  .name{
+    border: solid 1px;
+    color: #f6fbffe4;
+    margin-right: 50px;
+    padding: 4px;
+    border-top: 4px;
+    border-left: 4px;
+    border-right: 4px;
+    border-radius: 4px;
+  
+  }
+}

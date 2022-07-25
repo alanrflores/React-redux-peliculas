@@ -1,0 +1,89 @@
+.home {
+  background-color: rgb(10, 10, 10);
+  color: white;
+  width: 100%;
+}
+
+.divTitle {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.title {
+  width: 300px;
+  text-align: center;
+  font-size: large;
+  padding: 6px;
+  margin-top: 6px;
+  border: solid 2px;
+  border-top: 4px;
+  border-left: 4px;
+  border-right: 4px;
+  border-radius: 10px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+}
+.divSection  h3 {
+  margin-left: 15px;
+  color: rgba(215, 215, 215, 0.823);
+  font-size: xx-large;
+}
+
+.divSection  h4 {
+  color: rgb(200, 164, 200);
+  font-size: large;
+}
+.sectionCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 25px;
+ 
+}
+.divBanner {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100vw;
+  height: 95vh;
+ 
+
+
+}
+.divBanner img {
+  object-fit: cover;
+  background-image: url("https://images.ecestaticos.com/Wf-6o6og0ayZqQS8HoFVGCkUBfQ=/57x0:956x506/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F34d%2F358%2F5bd%2F34d3585bd9df12e19f80c4d531be3e80.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 95vh;
+}
+@media (max-width: 1550px){
+  .sectionCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding: 25px;
+    margin-left: auto;
+ 
+}
+}
+@media (max-width: 1230px){
+  .sectionCard {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+
+}
+}

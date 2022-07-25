@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #e6e6e6;
+    position: sticky;
+    top: 0;
+}
+a { 
+    text-decoration: none; 
+    color: rgb(0, 92, 111);
+    cursor: pointer;
+    font-size: large;
+}
+
+a:hover {
+    color: rgb(0, 68, 75);
+}

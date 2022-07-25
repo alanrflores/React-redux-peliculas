@@ -1,0 +1,194 @@
+.container{
+    border-radius: 20px;
+    background-image: url('https://es.web.img3.acsta.net/newsv7/21/02/12/11/48/0062650.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.titulo1{
+    text-align: center;
+    color: rgb(202, 239, 239);
+    padding: 10px;
+}
+
+.divFormulario {
+  background-color: rgba(253, 255, 249, 0.91);
+  width: 60%;
+  height: 80vh;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+ 
+}
+
+.inputName {
+  width: 340px;
+  padding: 6px;
+  border: none;
+  background-color: rgba(2, 105, 105, 0.087);
+  border-radius: 10px;
+}
+.inputReleaseYear {
+  width: 500px;
+  padding: 8px;
+  border: none;
+  background-color: rgba(2, 105, 105, 0.087);
+  border-radius: 10px;
+}
+
+.inputDescription {
+  width: 600px;
+  height: 200px;
+  padding: 8px;
+  margin: 4px;
+  border: none;
+  background-color: rgba(2, 105, 105, 0.087);
+  border-radius: 10px;
+}
+.inputDirector {
+  width: 340px;
+  padding: 6px;
+  border: none;
+  background-color: rgba(2, 105, 105, 0.087);
+  border-radius: 10px;
+}
+
+.button {
+  padding: 12px;
+  margin: 15px;
+  width: 120px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgba(0, 139, 139, 0.409);
+}
+.button:hover {
+  background-color: rgba(38, 81, 81, 0.464);
+}
+
+@media only screen and (max-width: 990px){
+  .divFormulario{
+   width: 70%;
+   height: 70vh;
+   margin-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 860px){
+  .divFormulario{
+   width: 80%;
+   height: 60vh;
+   margin-top: 80px;
+   
+  }
+}
+@media (min-width: 660px) and (max-width: 750px){
+  .divFormulario{
+   width: 90%;
+   height: 60vh;
+   margin-top: 80px;
+   
+  }
+}
+@media (min-width: 360px) and (max-width: 660px){
+  .divFormulario{
+   width: 85%;
+   padding: 20px;
+   height: 60vh;
+   margin-top: 80px;
+   
+  }
+  .inputName {
+    width: 250px;
+    padding: 6px;
+    border: none;
+    background-color: rgba(2, 105, 105, 0.087);
+    border-radius: 10px;
+  }
+  .inputReleaseYear {
+    width: 280px;
+    padding: 8px;
+    border: none;
+    background-color: rgba(2, 105, 105, 0.087);
+    border-radius: 10px;
+  }
+  
+  .inputDescription {
+    width: 300px;
+    height: 200px;
+    padding: 8px;
+    margin: 4px;
+    border: none;
+    background-color: rgba(2, 105, 105, 0.087);
+    border-radius: 10px;
+  }
+  .inputDirector {
+    width: 300px;
+    padding: 6px;
+    border: none;
+    background-color: rgba(2, 105, 105, 0.087);
+    border-radius: 10px;
+  }
+  
+ 
+}
+@media (max-width: 360px){
+  .container{
+    border-radius: 20px;
+    background-image: url('https://es.web.img3.acsta.net/newsv7/21/02/12/11/48/0062650.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+  .divFormulario{
+    display: flex;
+    justify-content: center;
+   width: 90%;
+   padding: 12px;
+   height: 75vh;
+   margin-top: 20px;
+   
+  }
+  .inputName {
+    width: 200px;
+    padding: 6px;
+    border: none;
+    background-color: rgba(2, 105, 105, 0.087);
+    border-radius: 10px;
+  }
+  .inputReleaseYear {
+    width: 150px;
+    padding: 8px;
+    border: none;
+    background-color: rgba(2, 105, 105, 0.087);
+    border-radius: 10px;
+  }
+  
+  .inputDescription {
+    width: 200px;
+    height: 200px;
+    padding: 8px;
+    margin: 4px;
+    border: none;
+    background-color: rgba(2, 105, 105, 0.087);
+    border-radius: 10px;
+  }
+  .inputDirector {
+    width: 200px;
+    padding: 6px;
+    border: none;
+    background-color: rgba(2, 105, 105, 0.087);
+    border-radius: 10px;
+  }
+
+}
